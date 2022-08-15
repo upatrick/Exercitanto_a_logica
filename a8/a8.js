@@ -1,4 +1,4 @@
-let preco = parseFloat(prompt("Valor do produto:"));
+let preco = parseInt(prompt("Valor do produto:"));
 let parcelas = parseInt(prompt("Número de parcelas:"));
 
 let valorParcelas = 0;
