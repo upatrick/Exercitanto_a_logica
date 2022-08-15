@@ -11,7 +11,8 @@ console.log(b);
 var d = 20;
 var e = 10;
 var [d, e] = [e, d];
-console.log(d, e);
+console.log(d);
+console.log(e);
 
 // <!-- Escreva um algoritmo que armazene o valor 10 em uma variável A e
 // o valor 20 em uma variável B. A seguir (utilizando apenas atribuições
