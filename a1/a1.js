@@ -7,11 +7,11 @@ let produtos = valor1 * valor2 * valor3;
 let maior = Math.max(valor1, valor2, valor3);
 let menor = Math.min(valor1, valor2, valor3);
 
-console.log("Soma: ", soma);
-console.log("Média: ", media);
-console.log("Produtos: ", produtos);
-console.log("Maior valor: ", maior);
-console.log("Menor valor:", menor);
+console.log("Soma: ", soma.toFixed(2));
+console.log("Média: ", media.toFixed(2));
+console.log("Produtos: ", produtos.toFixed(2));
+console.log("Maior valor: ", maior.toFixed(2));
+console.log("Menor valor:", menor.toFixed(2));
 
 // <!-- Escreva um algoritmo que armazene três valores numéricos
 // diferentes e, em seguida, mostre no console a soma, a média, o
