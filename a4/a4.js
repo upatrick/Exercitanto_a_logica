@@ -2,7 +2,7 @@ const anoAtual = 2022;
 const anoNascimento = prompt("Digite seu ano de nascimento: ");
 let idade = anoAtual - anoNascimento;
 
-if (idade < 16) {
+if (idade < 18) {
     console.log("Você não pode votar pois tem: ", idade, "anos");
 } else {
     console.log("Você poderá votar pois tem: ", idade, "anos");
