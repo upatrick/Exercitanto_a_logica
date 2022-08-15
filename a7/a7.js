@@ -1,15 +1,15 @@
-let eleitoresMunicipio = prompt("Quantos eleitores tem no município?");
+let eleitoresMunicipio = Number(prompt("Quantos eleitores tem no município?"));
 
-let votosBrancos = prompt("Tiveram quantos votos brancos?");
-let votosNulos = prompt("Tiveram quantos votos nulos?");
-let votosValidos = prompt("Tiveram quantos votos válidos?");
-
-let pBrancos = (votosBrancos / eleitoresMunicipio) * 100;
-let pNulos = (votosNulos / eleitoresMunicipio) * 100;
-let pValidos = (votosValidos / eleitoresMunicipio) * 100;
+let votosBrancos = Number(prompt("Tiveram quantos votos brancos?"));
+let votosNulos = Number(prompt("Tiveram quantos votos nulos?"));
+let votosValidos = Number(prompt("Tiveram quantos votos válidos?"));
 
 const somaVotos = pBrancos + pNulos + pValidos;
+
 if (somaVotos <= 100) {
+    let pBrancos = (votosBrancos / eleitoresMunicipio) * 100;
+    let pNulos = (votosNulos / eleitoresMunicipio) * 100;
+    let pValidos = (votosValidos / eleitoresMunicipio) * 100;
     console.log(
         "O municipio teve",
         pBrancos.toFixed(2),
